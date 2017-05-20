@@ -31,7 +31,7 @@ node 'ip-172-31-14-240.us-west-2.compute.internal'{
 
 #puppet server
 
-node "ip-172-31-18-86.ap-southeast-1.compute.internal" {
+node "ip-172-31-18-91.us-west-2.compute.internal" {
   class{"nats": }
   file { '/usr/local/bin/mco':
   
